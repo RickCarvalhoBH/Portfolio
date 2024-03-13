@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículo</title>
+  <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -12,26 +13,43 @@
   <header class="cabecalho">
     <nav class="cabecalho__menu">
       <a class="cabecalho__menu__link" href="index.html">Home</a>
-      <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
       <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+      <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+    </nav>
+
+    <nav class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabecalho__menu-mobile container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__item">
+          <a href="index.html" class="lista-menu__link">Home</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="curriculo.html" class="lista-menu__link">Currículo</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="about.html" class="lista-menu__link">Sobre mim</a>
+        </li>
+      </ul> 
     </nav>
   </header>
 
   <main class="apresentacao">
-    <section class="apresentacao__conteudo">
-      <h1 class="apresentacao__conteudo__titulo">Experiências</h1>
-      <p class="apresentacao__conteudo__texto__curriculo">Analista de Desenvolvimento | Nexaas | 06/2023 – Atual</p>
-      <p class="apresentacao__conteudo__texto__curriculo">Analista de Desenvolvimento | Spark System | 02/2022 – 06/2023</p>
-      <h1 class="apresentacao__conteudo__titulo">Formações</h1>
-      <p class="apresentacao__conteudo__texto__curriculo">Técnico em Informática | Completo</p>
-      <p class="apresentacao__conteudo__texto__curriculo">Engenharia de Software | Conclusão em 2024</p>
+    <section class="apresentacao__conteudo__curriculo">
+      <h1 class="apresentacao__conteudo__titulo__curriculo">Experiências</h1>
+      <h2 class="apresentacao__conteudo__texto__curriculo">Desenvolvedor de Sistemas | Nexaas | 06/2023 – Atual</h2>
+      <h2 class="apresentacao__conteudo__texto__curriculo">Desenvolvedor de Sistemas | Spark System | 02/2022 – 06/2023</h2>
+      <h1 class="apresentacao__conteudo__titulo__curriculo">Formações</h1>
+      <h2 class="apresentacao__conteudo__texto__curriculo">Engenharia de Software</h2>
+      <h2 class="apresentacao__conteudo__texto__curriculo">Técnico em Informática</h2> 
     </section>
-    <img src="./assets/Eu.jpg" alt="Esse sou eu">
-  </main>
 
-  <footer class="rodape">
-    <p>Desenvolvido por Milton</p>
-  </footer>
+    <div class="minha__foto">
+      <img src="./assets/Eu.jpg" alt="Esse sou eu">
+    </div> 
+  </main>
     
 </body>
 </html>

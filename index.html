@@ -13,8 +13,26 @@
   <header class="cabecalho">
     <nav class="cabecalho__menu">
       <a class="cabecalho__menu__link" href="index.html">Home</a>
-      <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
       <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+      <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+    </nav>
+
+    <nav class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabecalho__menu-mobile container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__item">
+          <a href="index.html" class="lista-menu__link">Home</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="curriculo.html" class="lista-menu__link">Currículo</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="about.html" class="lista-menu__link">Sobre mim</a>
+        </li>
+      </ul> 
     </nav>
   </header>
 
@@ -24,8 +42,8 @@
         <strong class="titulo-destaque"> com um sistema de qualidade!</strong>
       </h1>
       <p class="apresentacao__conteudo__texto">
-        Olá! Sou Milton Henrique, engenherio de software com especialidade em C# e .Net. 
-        Aplico meu conhecimento em tarefas do dia a dia com novas funcionalidades de qualidade para o sistema web.
+        Olá! Me chamo Milton Henrique, sou desenvolvedor de sistemas com experiência em C# e .NET. 
+        Aplico meu conhecimento em tarefas do dia a dia com novas funcionalidades de qualidade para o sistemas web.
       </p>
       <div class="apresentacao__links">
         <h2 class="apresentacao__links_subtitulo">Acesse minhas redes</h2>
@@ -37,7 +55,9 @@
         </a>
       </div>
     </section>
-    <img src="./assets/Eu.jpg" alt="Esse sou eu">
+    <div class="minha__foto">
+      <img src="./assets/Eu.jpg" alt="Esse sou eu">
+    </div>   
   </main>
 
   <footer class="rodape">
